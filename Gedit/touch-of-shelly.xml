@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<style-scheme id="touch-of-shelly" _name="Touch of Shelly" version="1.0">
+
+	<author>Drew Chapin &lt;druciferre@gmail.com&gt;</author>
+
+	<_description>Personal color scheme preferences with a small modification by my girlfriend, Michelle.</_description>
+
+	<!-- Color Palette -->
+	<color name="black" value="#000000" />
+	<color name="white" value="#FFFFFF" />
+	<color name="gray" value="#808080" />
+	<color name="silver" value="#C0C0C0" />
+	<color name="lime" value="#00FF00" />
+	<color name="teal" value="#008080" />
+	<color name="yellow" value="#FFFF00" />
+	<color name="orange" value="#FF8000" />
+	<color name="green" value="#008000" />
+	<color name="red" value="#FF0000" />
+	<color name="dark-gray" value="#333333" />
+	<color name="cyan" value="#00FFFF" />
+	<color name="purple" value="#AD7FA8" />
+
+	<!-- Global Settings -->
+	<style name="text" foreground="white" background="black" />
+	<style name="selection" foreground="black" background="white" />
+	<style name="cursor" foreground="white" />
+	<style name="current-line" background="gray" />
+	<style name="line-numbers" foreground="silver" background="dark-gray" />
+	<style name="draw-spaces" foreground="#FF00FF" />
+	<style name="punctuation" foreground="yellow" />
+
+	<!-- Bracket Matching -->
+	<style name="bracket-match"	              foreground="black" background="yellow" bold="true" />
+	<style name="bracket-mismatch"            foreground="black" background="red" bold="true" />
+
+	<!-- Right Margin -->
+	<style name="right-margin"				  foreground="silver" background="silver" />
+
+	<!-- Search Matching -->
+	<style name="search-match"                foreground="white" background="lime"/>
+
+	<!-- Comments -->
+	<style name="def:comment"                 foreground="gray" />
+	<style name="def:shebang"                 foreground="black" background="cyan" bold="true"/>
+	<style name="def:doc-comment-element"     foreground="black" background="green" bold="true" />
+
+	<!-- Constants -->
+	<style name="def:constant"                foreground="white" />
+	<style name="def:string"                  foreground="purple" />
+	<style name="def:special-char"            foreground="purple" />
+	<style name="def:special-constant"        foreground="white" />
+	<style name="def:floating-point"          foreground="red" />
+	<style name="def:decimal" foreground="red" />
+	<style name="def:octal" foreground="red" />
+	<style name="def:hexadecimal" foreground="red" />
+
+	<!-- Operators -->
+	<style name="def:operator" foreground="yellow" />
+
+	<!-- Identifiers -->
+	<style name="def:identifier"              foreground="orange" />
+
+	<!-- Statements -->
+	<style name="def:statement"               foreground="lime" />
+
+	<!-- Types -->
+	<style name="def:type"                    foreground="lime" /> 
+
+	<!-- Others -->
+	<style name="def:preprocessor"            foreground="green" bold="true" />
+	<style name="def:error"                   foreground="white" background="red" bold="true" />
+	<style name="def:note"                    background="black" foreground="green" bold="true" />
+	<style name="def:underlined"              italic="true" underline="true" />
+
+	<!-- Language specific -->
+	<style name="diff:added-line"             foreground="butter2" />
+	<style name="diff:removed-line"           foreground="skyblue1" />
+	<style name="diff:changed-line"           foreground="plum1" />
+	<style name="diff:diff-file"              foreground="chameleon1" bold="true" /> 
+	<style name="diff:location"               foreground="chameleon1" /> 
+	<style name="diff:special-case"           foreground="#white" bold="true" />
+
+	<style name="latex:display-math"          foreground="orange" />
+	<style name="latex:command"               foreground="chameleon1" bold="true" />
+	<style name="latex:include"               use-style="def:preprocessor" />
+
+</style-scheme>
+
