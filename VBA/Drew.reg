@@ -1,0 +1,8 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\VBA\7.1\Common]
+"CodeForeColors"="7 4 5 0 1 3 9 1 0 0 0 0 0 0 0 0 "
+"CodeBackColors"="4 2 4 7 6 4 4 4 0 0 0 0 0 0 0 0 "
+"FontHeight"=dword:0000000a
+"FontCharSet"=dword:00000000
+"FontFace"="Consolas"
